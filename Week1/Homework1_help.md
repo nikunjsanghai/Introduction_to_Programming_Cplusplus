@@ -1,5 +1,5 @@
 Lets have a look at some demo code:
-Hints for Problem 1:
+### Hints for Problem 1:
 ```
 int a, b, c; //number 1:34 , number 2:30
 cout << "Number 1:";
@@ -26,3 +26,16 @@ Output will be 50.0 it is just printed to the console as 50
 
 How do we know whether this is correct or not? 
 
+#### Syntax help for using abs, max and min functions
+```
+int a=10,b=20;
+std::cout<<abs(a-b)<<endl;
+std::cout<<max(a,b)<<endl;
+std::cout<<min(a,b)<<endl;
+```
+Output:
+```
+
+
+
+```
