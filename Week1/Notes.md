@@ -15,9 +15,9 @@ C++ supports a wide variety of data types and the programmer can select the data
 
 #### C++ supports the following data types:
 
-1.Primary or Built in or Fundamental data type
-2.Derived data types
-3.User defined data types
+1.Primary or Built in or Fundamental data type       
+2.Derived data types       
+3.User defined data types          
 
 We will not discuss 2. and 3. in Week 1. 
 
