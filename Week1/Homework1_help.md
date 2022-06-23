@@ -19,6 +19,8 @@ cout << "Result:" << c << endl;//c=100
 cout << "Result:" << c / 2.0 << endl;
 cout << "Result:" << c << endl;//
 ```
-//when we write this statement what is does is that it overrides c with a value of 100, so the previous value that c had which was of 30 gets replaced.
-//dividing an integer by a double? will it throw any error? if not what is the output. Output =50, 
-// it converts the integer into a double, its called implicit convertion
+Line 17:when we write this statement what is does is that it overrides c with a value of 100, so the previous value that c had which was of 30 gets replaced.     
+Line19:dividing an integer by a double? will it throw any error? if not what is the output. Output =50.0 or 50?                 
+
+
+
