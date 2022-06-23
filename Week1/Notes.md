@@ -30,5 +30,5 @@ Double Floating Point
 Valueless or Void      
 Wide Character         
 
-Sources and Reference Reading:[link])(https://docs.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-170) [link](https://www.geeksforgeeks.org/c-data-types/)[link](https://www.geeksforgeeks.org/variables-and-keywords-in-c/)
+Sources and Reference Reading:[link](https://docs.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-170) [link](https://www.geeksforgeeks.org/c-data-types/)[link](https://www.geeksforgeeks.org/variables-and-keywords-in-c/)
 
