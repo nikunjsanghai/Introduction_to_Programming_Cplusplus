@@ -35,7 +35,7 @@ std::cout<<min(a,b)<<endl;
 ```
 Output:
 ```
-
-
-
+10
+20
+10
 ```
