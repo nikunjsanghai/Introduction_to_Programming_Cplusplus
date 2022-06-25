@@ -19,7 +19,7 @@ C++ supports a wide variety of data types and the programmer can select the data
 2.Derived data types       
 3.User defined data types**          
 
-We will not discuss 2. and 3. in Week 1. 
+We will not discuss 2. and 3. in Week 1.         
 **1. Primitive Data Types:** These data types are built-in or predefined data types and can be used directly by the user to declare variables. example: int, char, float, bool, etc. Primitive data types available in C++ are: 
 
 **Integer    
@@ -31,5 +31,7 @@ Valueless or Void
 Wide Character  
 ** 
 
+### Casting
+It is legal to convert some of the data type to another. 
 Sources and Reference Reading:[link](https://docs.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-170)  [link](https://www.geeksforgeeks.org/c-data-types/)    [link](https://www.geeksforgeeks.org/variables-and-keywords-in-c/)
 
