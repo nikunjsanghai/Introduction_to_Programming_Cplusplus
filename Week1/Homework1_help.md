@@ -65,7 +65,7 @@ Steps:
 
 **This example is relevant to HW Problem 3 since you should be able to extract the hours and minutes from integers entered as military hours. Example 2300 should be extracted as 23 hours and 0 minutes.**          
 
-**Steps to Solve HW- Problem 3**          
+#### Steps to Solve HW- Problem 3          
 Reference Example: 23 hours 22 minutes ,23 in on a scale of 60 instead of 100            
 1.Task 1 is to be able to convert everything into minutes.       
 2.Task 2 should be to be able to reach the partial credit state which is your program should be able to demonstrate 527,-527 in minutes.           
