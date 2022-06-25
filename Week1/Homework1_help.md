@@ -63,10 +63,10 @@ Steps:
 3. To extract 3, I used a%10, which gave me 3. 
 4. I added all the expressions used in Steps 1 to 3 in b and printed the value out. 
 
-**This example is relevant to HW Problem 3 since you should be able to extract the hours and minutes from integers entered as military hours. Example 2300 should be extracted as 23 hours and 0 minutes.**
+**This example is relevant to HW Problem 3 since you should be able to extract the hours and minutes from integers entered as military hours. Example 2300 should be extracted as 23 hours and 0 minutes.**          
 
-**Steps to Solve HW- Problem 3**
-Reference Example: 23 hours 22 minutes ,23 in on a scale of 60 instead of 100
-1.Task 1 is to be able to convert everything into minutes.
-2.Task 2 should be to be able to reach the partial credit state which is your program should be able to demonstrate 527,-527 in minutes. 
-3.Task 3 and final task would be to use % operator and some clever calculations to get satisfactory results for both cases.
+**Steps to Solve HW- Problem 3**          
+Reference Example: 23 hours 22 minutes ,23 in on a scale of 60 instead of 100            
+1.Task 1 is to be able to convert everything into minutes.       
+2.Task 2 should be to be able to reach the partial credit state which is your program should be able to demonstrate 527,-527 in minutes.           
+3.Task 3 and final task would be to use % operator and some clever calculations to get satisfactory results for both cases.       
