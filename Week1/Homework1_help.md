@@ -39,3 +39,6 @@ Output:
 20
 10
 ```
+#### Practice Problem related to HW- Question 3
+Q.  Write a program that takes a number as input. It is understood that the number will always be 3 digits, an integer and positive with no exceptions.       
+ the program should be able to calculate the sum of all the digits of the number. Example 123 , output should be 6. Hint: use the % operator. Example 666 , output should be 18
