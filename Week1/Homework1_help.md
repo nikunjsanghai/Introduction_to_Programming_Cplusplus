@@ -39,6 +39,23 @@ Output:
 20
 10
 ```
+
+### Hints for Problem 2
+```
+double a1, b1, c1,c2;
+cout << "Number 1:";
+cin >> a1;
+cout << "Number 2:";
+cin >> b1;
+c1 = a1 + b1;
+c1 = c1 * 100; //35.9899
+c2 = round(c1);//3598.99999 after the round off the number would be 3899.00
+cout << c2 << endl;
+int c3 = c2;//implicit convertion 
+cout << c3 << endl;
+```
+How to tackle Rounding error has been demonstrated in this example. It is not possible to express certain fractions accurately in decimal integers so computer performs some approximation which leads to the error, for example 20.15 is stored as 20.1499999. Use of round function eliminates the error. It is important to understand why round function was being, only eliminating the error is not enough. 
+
 #### Practice Problem related to HW- Question 3
 Q.  Write a program that takes a number as input. It is understood that the number will always be 3 digits, an integer and positive with no exceptions.The program should be able to calculate the sum of all the digits of the number. Example 123 , output should be 6. Hint: use the % operator. Example 666 , output should be 18.
 
