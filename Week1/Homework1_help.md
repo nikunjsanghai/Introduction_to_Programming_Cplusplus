@@ -87,3 +87,4 @@ Reference Example: 23 hours 22 minutes ,23 in on a scale of 60 instead of 100
 1.Task 1 is to be able to convert everything into minutes.       
 2.Task 2 should be to be able to reach the partial credit state which is your program should be able to demonstrate 527,-527 in minutes.           
 3.Task 3 and final task would be to use % operator and some clever calculations to get satisfactory results for both cases.       
+**FINAL HINT: 36%24=12 but 12%24 is also equal to 12.**
