@@ -4,12 +4,12 @@
 Precondition: String should have exactly the number of characters you input as the numeric input. Split the string in three equal parts separated by a single blank space.
 Print the new String.
 ```
-Example: Numeric Input: 9        
+Example 1: Numeric Input: 9        
 String Input: 123456789         
 Output: 123 456 789           
 ```
 ```
-Example 2: Numeric Input 6
-String Input 123456
+Example 2: Numeric Input: 6
+String Input: 123456
 Output: 12 34 56
 ```
