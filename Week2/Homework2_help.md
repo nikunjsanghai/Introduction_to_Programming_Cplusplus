@@ -13,3 +13,6 @@ Example 2: Numeric Input: 6
 String Input: 123456
 Output: 12 34 56
 ```
+
+
+[] operator is good to work with but will not throw 
