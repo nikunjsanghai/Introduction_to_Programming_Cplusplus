@@ -25,7 +25,7 @@ int main()
 	cout << "Enter a numeric input:";
 	cin >> a;//9 
 	string b, c;
-	cin.clear(); //cin.sync();
+	cin.clear();
 	cin.ignore(200, '\n');
 	cout << "Enter the string" << endl;
 	getline(cin, b);// we get the string here 
