@@ -29,7 +29,7 @@ int main()
 	cin.ignore(200, '\n');
 	cout << "Enter the string" << endl;
 	getline(cin, b);// we get the string here 
-	c = b.substr(0, a / 3) + " " + b.substr(a / 3 - 1, a / 3) + " " + b.substr(2 * (a / 3) - 1, a / 3);// 
+	c = b.substr(0, a / 3) + " " + b.substr(a / 3 - 1, a / 3) + " " + b.substr(2 * (a / 3) - 1, a / 3);
 	cout << c;
 	return 0;
 }
