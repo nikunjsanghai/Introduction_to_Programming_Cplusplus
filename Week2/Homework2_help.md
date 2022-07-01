@@ -13,6 +13,27 @@ Example 2: Numeric Input: 6
 String Input: 123456
 Output: 12 34 56
 ```
+
+**Solution:** 
+```
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+	int a;
+	cout << "Enter a numeric input:";
+	cin >> a;//9 
+	string b, c;
+	cin.clear(); //cin.sync();
+	cin.ignore(200, '\n');
+	cout << "Enter the string" << endl;
+	getline(cin, b);// we get the string here 
+	c = b.substr(0, a / 3) + " " + b.substr(a / 3 - 1, a / 3) + " " + b.substr(2 * (a / 3) - 1, a / 3);// 
+	cout << c;
+	return 0;
+}
+```
 **Why is this question a good hint for Problem 1 and Problem 2?**      
 
 #### Problem 1
