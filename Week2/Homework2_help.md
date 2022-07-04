@@ -37,7 +37,7 @@ int main()
 **Why is this question a good hint for Problem 1 and Problem 2?**      
 
 #### Problem 1
-Question is asking you to eliminate the , in a number ranging from 1,000 ro 999,999. Remember by the limitation placed within the range of numbers being from 1,000 to 999,999. The input is said to have a minimum of 5 characters 1,000 has 5 characters in it, including the ",". So we know there is a set interval of 4 characters where the last 3 digits will always be present. The total length can found by using .length() function. Should be enough hint to solve the question. 
+Question is asking you to eliminate the , in a number ranging from 1,000 to 999,999. Remember by the limitation placed within the range of numbers being from 1,000 to 999,999. The input is said to have a minimum of 5 characters 1,000 has 5 characters in it, including the ",". So we know there is a set interval of 4 characters where the last 3 digits will always be present. The total length can found by using .length() function. Should be enough hint to solve the question. 
 
 #### Problem 2
 Prof's Hints are extremely useful.          
