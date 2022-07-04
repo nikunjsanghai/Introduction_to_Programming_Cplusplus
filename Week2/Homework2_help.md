@@ -47,3 +47,4 @@ Task 3: Extracting the month corresponding to the number of month entered by use
 
 
 #### Problem 3
+Ifound the .find() function very useful for this question. .find() helps us locate the position of a certain character/string within a existing string. 
