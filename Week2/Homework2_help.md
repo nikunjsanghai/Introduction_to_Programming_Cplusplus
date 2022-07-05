@@ -41,9 +41,9 @@ Question is asking you to eliminate the , in a number ranging from 1,000 to 999,
 
 #### Problem 2
 Prof's Hints are extremely useful.          
-Task 1: Find the Month with the most number of months.           
-Task 2: Add spaces in all the months accordingly. For example if September is the month with the most number of characters,which is 8. You will need to add 5 blank spaces in after May.            
-Task 3: Extracting the month corresponding to the number of month entered by user as input using substr() function & displaying it. Look at discussion recordings of 6.29 and 6.30 for detailed explanation.            
+Task 1: Find the digit with the most number of characters.           
+Task 2: Add spaces in all the digits names accordingly. For example if seven is the digit with the most number of characters,which is 5. You will need to add 2 blank spaces in after one.            
+Task 3: Extracting the digit name from the string corresponding to the number entered by user as input using substr() function & displaying it. Look at discussion recordings of 6.29 and 6.30 for detailed explanation.            
 
 
 #### Problem 3
