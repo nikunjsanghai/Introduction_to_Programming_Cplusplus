@@ -48,3 +48,7 @@ Task 3: Extracting the digit name from the string corresponding to the number en
 
 #### Problem 3
 I found the .find() function very useful for this question. .find() helps us locate the position of a certain character/string within a existing string. 
+
+Steps to solve: 
+1. Use the find function to look for something familiar or repetitive in the input, like '*','x'.
+2. Tricky part would be finding b and c in the equation, a is simple. End point of b - (starting point of a+ plus some offset) would be the length of b. Once you have the length of b you can use the substring to find b.  
