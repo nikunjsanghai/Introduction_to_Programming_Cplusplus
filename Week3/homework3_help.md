@@ -15,7 +15,15 @@ we would need to reverse the number and lastly  we would need to compare the rev
 
 Hint: First try to extract digits, to reverse the digits you can simply mutiply with 10 in a looped manner. a%10= last digit of integer a. 234 is 4\*10, the number after two iterations of the loop would be is 400.  
 
-This question helps you to understand how to add digits to a question, which will help in printing out the binary number. Solution shown in Monday's discussion section video. Solution will be given on Github after Tuesday's discussion.        
+This question helps you to understand how to add digits to a question, which will help in printing out the binary number. Solution shown in Monday's discussion section video. Solution will be given on Github after Tuesday's discussion. 
+
+
+
+### Hint for Question 3
+I found using cin.get() to check whether user gave'\n' to terminate the sequence very helpful. 
+
+
+
 
 
 
