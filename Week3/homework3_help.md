@@ -9,8 +9,18 @@ The following diagram explains 4 numbers being sorted in ascending order. Please
 Write a program to take an integer input and check whether or not the number is a palendrome number or not.A palendrome is a number whose reverse is same as the original number. For Example: 121 is a palendrome number. 
 
 Hints for Practice Problem:
-What would you need for this question. We would need a loop, we would need to reverse the number, we would need to compare the reverse number from the original one. 
+What would you need for this question?  
+We would need a loop since we do not know how many digits the number has.      
+we would need to reverse the number and lastly  we would need to compare the reverse number from the original one.           
 
-Hint: First try to extract digits, to reverse the digits you can simply mutiply with 10 in a looped manner. a%10= last digit of integer a. 234 /,4\*10, the number is 400 
+Hint: First try to extract digits, to reverse the digits you can simply mutiply with 10 in a looped manner. a%10= last digit of integer a. 234 is 4\*10, the number after two iterations of the loop would be is 400.  
+
+This question helps you to understand how to add digits to a question, which will help in printing out the binary number. Solution shown in Monday's discussion section video. Solution will be given on Github after Tuesday's discussion.        
+
+
+
+
+
+
 
 
