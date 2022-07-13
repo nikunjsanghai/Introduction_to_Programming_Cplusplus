@@ -12,6 +12,12 @@ Example the output for the input 5 will be.
 **
 *
 ```
+Example for 3:
+```
+***
+**
+*
+```
 Compulsorily use the following int main function: 
 ```
 int main()
