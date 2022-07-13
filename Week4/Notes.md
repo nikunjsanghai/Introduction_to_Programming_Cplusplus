@@ -5,10 +5,10 @@ Factorial of a number is the product of all integers beginning from 1 to the num
                                                
 b)Write a function star which outputs a star which prints a triangle whose dimension is equal to length of the input.                             
 Example the output for the input 5 will be.   
-`
+```
 *****                     
 ****          
 ***
 **
 *
-`
+```
