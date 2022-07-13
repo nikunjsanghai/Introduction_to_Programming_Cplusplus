@@ -12,7 +12,7 @@ Example the output for the input 5 will be.
 **
 *
 ```
-Question 2: Write a program to take a intger as an input.                              
+Question 2: Write a program to take a integer as an input.                              
 a)Write a function factorial which prints all the factorials strating from number 1 to the factorial of the number.                        
 Factorial of a number is the product of all integers beginning from 1 to the number. Example for 5 : 
 Ouput:
