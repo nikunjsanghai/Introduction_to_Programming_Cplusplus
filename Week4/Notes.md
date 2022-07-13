@@ -23,6 +23,19 @@ Ouput:
 24
 120
 ```
+
+Compulsorily use the following int main function: 
+```
+int main()
+{
+	int a;
+	cout << "Enter a positive integer ";
+	cin >> a;
+	cout << factorial(a) << endl;
+	 star(a);
+   return 0;
+}
+```
 b) write a fucntion prime to extract the digits of the number and check whether the digit is prime or not? ( Do not consider 1 as an input) 
 Example: 123                   
 Output:
