@@ -22,6 +22,6 @@ std::max(a,b) and std::min(a,b) were fairly useful in this question.
 
 ### Problem 4
 In this question your program should be able to handle both cases:         
-Case1: Even number of elements in a vector
+Case1: Even number of elements in a vector       
 Case2: Odd number of elements in a vector
 
