@@ -1,5 +1,7 @@
 ### Function Overloading       
-Function overloading is a feature of object-oriented programming where two or more functions can have the same name but different parameters. When a function name is overloaded with different jobs it is called Function Overloading. In Function Overloading “Function” name should be the same and the arguments should be different.
+Function overloading is a feature of object-oriented programming where two or more functions can have the same name but different parameters. When a function name is overloaded with different jobs it is called Function Overloading. In Function Overloading “Function” name should be the same and the arguments should be different.      
+
+Function overloading is possible in C++ and Java but only if the functions must differ from each other by the types and the number of arguments in the argument list. However, functions can not be overloaded if they differ only in the return type.                            
 
 #### Parameters have a different data type
 ```
