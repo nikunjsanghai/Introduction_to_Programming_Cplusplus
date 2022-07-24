@@ -1,3 +1,4 @@
+### Function
 Function is a set of statements that take inputs, do some specific computation and produces output.                                 
                                 
 The idea is to put some commonly or repeatedly done task together and make a function so that instead
@@ -10,7 +11,7 @@ of writing the same code again and again for different inputs, we can call the f
 2)Functions make code modular. Consider a big file having many lines of code. It becomes really simple to read and use the code if the code is divided into functions.
 
 
-**Function Definition vs Function Declaration.** 
+#### Function Definition vs Function Declaration.
            
 
                                                    
