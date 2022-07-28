@@ -1,0 +1,32 @@
+### Main.cpp file
+```
+#include "MyString.hpp"
+using namespace std;
+
+int main() {
+
+    MyString s("Hello World");
+    cout << s << endl;
+
+    // These compile but don't do anything useful yet.
+    // They simply return static_cast<size_t>(-1).
+
+    //   note that you cannot use s.find("llo") since the find function 
+    //   in MyString takes const MyString& as a parameter.
+    //   So, you have to create a MyString object with "llo" and then 
+    //   use the object as a parameter..
+
+    MyString target1("llo");
+    cout << s.find(target1) << endl;    // should return 2
+
+    MyString target2("o");
+    cout << s.find(target2, 5) << endl; // should return 7
+
+    //   Here you are allowed to use char 'o' since the overloaded 
+    //   find function in MyString takes char c as a parameter.
+
+    cout << s.find('o', 5) << endl;     // should return 7
+
+    return 0;
+}
+```
