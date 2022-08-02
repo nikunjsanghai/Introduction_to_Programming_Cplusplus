@@ -52,4 +52,12 @@ empty(): Must return boolean value true or false depending on the vector. If the
 
 **For all the functions that you are typing keep in mind to check member functions of the std::string [Link](https://cplusplus.com/reference/string/string/) to std::vector [Link](https://en.cppreference.com/w/cpp/container/vector)** 
 
+#### substr() function
+Position parameter:Position of the first character to be copied as a substring.            
+If this is equal to the string length, the function returns an empty string.                      
+If this is greater than the string length, it throws out_of_range.                        
+Note: The first character is denoted by a value of 0 (not 1)   
+
+length parameter:Number of characters to include in the substring (if the string is shorter, as many characters as possible are used).          
+
 
