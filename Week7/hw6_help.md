@@ -50,6 +50,6 @@ It **DOES NOT NEED** a parameter during function definition because it needs to 
 
 empty(): Must return boolean value true or false depending on the vector. If the string is empty must return true otherwise returns false.
 
-**For all the functions that you are typing keep in mind to check member functions of the std::string [Link](https://cplusplus.com/reference/string/string/) to std::vector [Link](https://en.cppreference.com/w/cpp/container/vector) 
+**For all the functions that you are typing keep in mind to check member functions of the std::string [Link](https://cplusplus.com/reference/string/string/) to std::vector [Link](https://en.cppreference.com/w/cpp/container/vector)** 
 
 
