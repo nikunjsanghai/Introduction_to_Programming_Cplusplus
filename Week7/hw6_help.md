@@ -9,7 +9,7 @@ How will you create it for n characters?
 
 Task 3: 
 [Link](https://www.geeksforgeeks.org/vectorpush_back-vectorpop_back-c-stl/)
-push_back(): It alters the vector but does not return anything as you can see in the below example. Ponder on this and think do I need to return anything or just altering the vector(which is a data member of the object of MyString class is enough)
+push_back(char t): It alters the vector but does not return anything as you can see in the below example. Ponder on this and think do I need to return anything or just altering the vector(which is a data member of the object of MyString class is enough)
 ```
 #include <iostream>
 #include <vector>
@@ -47,5 +47,7 @@ int main()
 }
 ```
 It **DOES NOT NEED** a parameter during function definition because it needs to know what to add to the vector.
+
+empty(): Must return boolean value true or false depending on the vector. If the string is empty must return true otherwise returns false.
 
 
