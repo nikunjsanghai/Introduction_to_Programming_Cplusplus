@@ -1,4 +1,10 @@
-Write a class Game for a shuffler game while makes you select random number between 1-3; triples your bet amount if you win. Otherwise deducts the balance from your input.
+
+**Question1** Write a program to take a vector of 6 doubles as input and print out the second largest number. 
+
+
+
+
+**Question2** :Write a class Game for a shuffler game while makes you select random number between 1-3; triples your bet amount if you win. Otherwise deducts the balance from your input.
 The game continues till you either stop playing or exhaust all your money.                           
 Member functions are:                              
 
