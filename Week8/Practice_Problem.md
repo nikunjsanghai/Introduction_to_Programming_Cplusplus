@@ -1,5 +1,11 @@
 
-**Question1**: Write a program to take a vector of 6 doubles as input and print out the second largest number. 
+**Question1**: Write a program to take a vector of upto 6 doubles as input and print out the second largest number ans its index in the vector. You are not to use to use .sort function for this question. You are not to alter any index or position of numbers in a vector. 
+
+```
+Input:
+{1,2,3}
+Number:2, Index: 1
+```
 
 
 
