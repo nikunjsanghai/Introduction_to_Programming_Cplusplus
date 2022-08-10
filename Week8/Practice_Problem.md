@@ -1,5 +1,5 @@
 
-**Question1** Write a program to take a vector of 6 doubles as input and print out the second largest number. 
+**Question1**: Write a program to take a vector of 6 doubles as input and print out the second largest number. 
 
 
 
