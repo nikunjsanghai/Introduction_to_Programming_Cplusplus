@@ -39,6 +39,18 @@ Following are the C++ data type modifiers:
 - long
 - short
 
+### Operators in C++
+We can define operators as symbols that help us to perform specific mathematical and logical computations on operands. In other words, we can say that an operator operates the operands.
+
+Operators in C++ can be classified into 6 types:
+
+- Arithmetic Operators
+- Assignment Operators
+- Relational Operators
+- Logical Operators
+- Bitwise Operators
+- Other Operators
+
 ### Casting
 It is legal to convert some of the data type to another. 
 Sources and Reference Reading:[link](https://docs.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-170)  [link](https://www.geeksforgeeks.org/c-data-types/)    [link](https://www.geeksforgeeks.org/variables-and-keywords-in-c/)
