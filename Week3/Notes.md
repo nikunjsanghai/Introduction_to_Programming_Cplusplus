@@ -12,5 +12,49 @@ Parameters: It accepts the following parameters:
                     
 
 N: It represent maximum number of characters to extract.                   
-delim: It is used for where stop the extraction.                     
+delim: It is used for where stop the extraction.           
+**Example** 
+```
+       int i1, i2, i3; char a, b, c;
+       std:: cin >> i1;
+       std::cin.ignore(std::numeric_limits<int>::max(), '\n');
+       std::cin >> i2;
+       std::cout << "i1=" << i1 << std::endl;
+       std::cout << "i2=" << i2 << std::endl;
+ ```
+ Input:
+ ```
+ 888.75abcd
+ 22
+ ```
+ Output:
+ ```
+i1=888
+i2=22
+```
+Further understanding: 
+```
+int i1, i2, i3; double a; char b,c,d,e;
+       std:: cin >> i1;
+       std::cin >> a;
+       std::cin >> b;
+       std::cin >> c;
+       std::cin >> d;
+       std::cin >> e;
+       std::cout << "i1=" << i1 << std::endl;
+       std::cout<<"doubles"<<a<<std::endl;
+       std::cout<<"characters:"<<b<<c<<d<<e<<std::endl;
+```
+Input:
+```
+888.75abcd
+```
+Output:
+```
+i1=888
+doubles0.75
+characters:abcd
+```
+       
+ 
 
