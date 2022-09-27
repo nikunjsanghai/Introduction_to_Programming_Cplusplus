@@ -18,5 +18,24 @@ This material highlights issues of using getline: [Link](https://stackoverflow.c
 ```
 **You cannot use % operator for floating point numbers in C++, it may be possible in other languages'.** Use of % operator: [Link](https://www.geeksforgeeks.org/can-use-operator-floating-point-numbers/)
 
+### Data-types: Strings
+**Null termination character in String** 
+Example:
+```
+#include<iostream>
+using namespace std;
+main() {
+   string my_string = "This is a sample text";
+   cout << my_string << endl;
+   my_string = "This is a sam\0ple text"; //check the \0
+   cout << my_string;
+}
+```
+Output:
+```
+This is a sample text
+This is a sam
+```
+
 
 
