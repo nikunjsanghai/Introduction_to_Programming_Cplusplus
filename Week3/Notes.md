@@ -6,7 +6,7 @@ if the end of the file is reached this function stops extracting characters. The
 This function will also stop extracting characters if the end-of-file is reached if the input is taken using a file.        
 **Syntax**
 ```
-istream& ignore(size N,int delim = EOF);
+std::cin.ignore(size N,int delim = EOF);
 ```
 Parameters: It accepts the following parameters:              
                     
