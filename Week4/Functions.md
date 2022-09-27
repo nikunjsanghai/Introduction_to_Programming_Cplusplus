@@ -79,3 +79,4 @@ int prime(int i,int j)
 	return 0;
 }
 ```
+#### Difference between Arguments and Parameters: [link](https://www.geeksforgeeks.org/difference-between-argument-and-parameter-in-c-c-with-examples/)
