@@ -36,6 +36,6 @@ Output:
 This is a sample text
 This is a sam
 ```
-
+Reference Link: [link](https://www.tutorialspoint.com/what-is-a-null-terminated-string-in-c-cplusplus#:~:text=The%20null%20terminated%20strings%20are,terminated%20strings%20by%20the%20compiler.)
 
 
