@@ -29,7 +29,15 @@ We will not discuss 2. and 3. in Week 1.
 - Double Floating Point       
 - Valueless or Void      
 - Wide Character  
+### Data Type Modifiers in C++
+Modifiers are used in C++ to change or give extra meaning to database types. It’s added to primitive data types as a prefix to change their meaning. A modifier is used to change the meaning of a basic type so that it better matches the requirements of different circumstances.                      
+                      
+Following are the C++ data type modifiers:                 
 
+- signed
+- unsigned
+- long
+- short
 
 ### Casting
 It is legal to convert some of the data type to another. 
