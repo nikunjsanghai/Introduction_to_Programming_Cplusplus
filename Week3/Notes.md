@@ -55,6 +55,6 @@ i1=888
 doubles0.75
 characters:abcd
 ```
-       
+Reference Links: [link](https://www.geeksforgeeks.org/stdbasic_istreamignore-in-c-with-examples/) 
  
 
