@@ -85,6 +85,16 @@ Output:
 ```
 Error
 ```
-A constructor can contain default parameters as well. A default constructor can either have no parameters or parameters with default arguments.
+A constructor can contain default parameters as well. A default constructor can either have no parameters or parameters with default arguments.        
 
+Advantages of Default Arguments:                
+
+- Default arguments are useful when we want to increase the capabilities of an existing function as we can do it just by adding another default argument to the function.
+- It helps in reducing the size of a program.
+- It provides a simple and effective programming approach.
+- Default arguments improve the consistency of a program.
+
+Disadvantages of Default Arguments:                
+
+- It increases the execution time as the compiler needs to replace the omitted arguments by their default values in the function call.
 
