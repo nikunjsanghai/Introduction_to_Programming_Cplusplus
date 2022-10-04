@@ -1,3 +1,5 @@
+## HINTS MEANT FOR HW1 SUMMER 2022. PAGE ARCHIVED
+
 Lets have a look at some demo code:
 ### Hints for Problem 1:
 ```
