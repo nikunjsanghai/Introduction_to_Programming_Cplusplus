@@ -7,8 +7,7 @@ Enter the tip % in variable t. Increase the purchase amount by % entered.Compare
 ```
 "Purchase successful! Tip successful!" otherwise display "Purchase successful! Tip unsuccessful!"
 ```
-                           
-                                         Test Cases:
+Test Cases:
 ```
 cin>>wallet;//wallet=100;
 cin>>purchase;//purchase=90;
