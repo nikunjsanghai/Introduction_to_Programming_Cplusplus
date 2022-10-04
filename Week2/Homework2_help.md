@@ -1,3 +1,6 @@
+
+# HINT MEANT FOR SUMMER 2022. PAGE ARCHIVED
+
 ### Hints for Problem 1 and 2
 
 **Sample Question:** Q1. Ask for a numeric input from the user. Precondition: Only input multiples of 3. Ask the user for a string input.
