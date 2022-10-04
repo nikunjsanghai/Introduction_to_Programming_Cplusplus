@@ -1,8 +1,13 @@
-Question 1: using only y variable. Store the sum of remainders of a,b,t when devided by 5. 
-```
-int a=8,b=3,t=9;int y=0;
-```
-Question 2: Given a three digit number. Store the sum of the digits of the number. 
+Question 1: Given a three digit number. A) Store the sum of the digits of the number. B)Print the reverse of the three digit number 
 ```
 int a=123;
+sum_of_digits=6;
+reverse=321;
+```
+Question 2: Enter a mutiple of 3 between 3 and 9. Enter an integer which has the number of digits corresponding to the number of digits. Split the number in three equal parts. Do not use if statement. 
+```
+//valid input: 
+cin>>a;//6 entered
+cin>>b; //123456 entered
+cout<<c;//Output:12 34 56 
 ```
