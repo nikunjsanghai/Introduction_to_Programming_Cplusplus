@@ -1,3 +1,12 @@
+### Strings in C++
+Strings are objects that represent sequences of characters.The standard string class provides support for such objects with an interface similar to that of a standard container of bytes, but adding features specifically designed to operate with strings of single-byte characters.                        
+
+**String Functions**
+![string_function](https://user-images.githubusercontent.com/103468688/195030226-b1c59e78-7aca-4abd-8354-f304a5ab7ba3.jpg)
+
+
+
+
 ### Input Buffer 
 
 #### std::ignore                  
