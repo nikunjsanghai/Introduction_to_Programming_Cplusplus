@@ -20,7 +20,7 @@ Prime!
 Enter a number:12
 Not Prime! 
 ```
-**Question 2**: Enter a number and print the sum of digits.       
+**Question 3**: Enter a number and print the sum of digits.       
 Case 1:
 ```
 Enter a number:123 
@@ -32,7 +32,7 @@ Enter a number: 78901
 Sum of Digits:25
 ```
 
-**Question 3**: Enter a program to input a string and calculate the number of blank spaces, the number of lower case characters and the number of upper case characters in the string. 
+**Question 4**: Enter a program to input a string and calculate the number of blank spaces, the number of lower case characters and the number of upper case characters in the string. 
 
 
 Example: 
