@@ -52,7 +52,7 @@ bbb
 bbb
 aaa
 ```
-Output
+Output:
 ```
 bbb
 bbb
