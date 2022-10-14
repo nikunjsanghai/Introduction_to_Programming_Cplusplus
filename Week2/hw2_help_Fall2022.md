@@ -42,7 +42,9 @@ aaa
 ```
 Output: 
 ```
-aaa aaa aaa
+aaa
+aaa
+aaa
 ```
 Input:
 ```
@@ -52,5 +54,7 @@ aaa
 ```
 Output
 ```
-bbb bbb aaa
+bbb
+bbb
+aaa
 ```
