@@ -34,3 +34,23 @@ If a or b is not the smallest then we for sure know c is the smallest
     else 
     print b then a. 
 ```
+Inputs( for descending):
+```
+aaa
+aaa
+aaa
+``
+Output: 
+```
+aaa aaa aaa
+```
+Input:
+```
+bbb
+bbb
+aaa
+```
+Output
+```
+bbb bbb aaa
+```
