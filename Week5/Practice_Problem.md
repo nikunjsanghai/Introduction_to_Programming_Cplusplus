@@ -3,4 +3,4 @@ sqrt_double: should return a void value, which would be square root of the value
 pow_double: should return a void value, which would be square of the value passed in as argument. The changes should be reflected in the value passed.
 
 write a main function declares a starting point of x=5 and creates a random number based on the random number input either calls sqrt_double or pow_double ,
-the function calls will terminate if the either value of x goes below 1.1 or if the value of x reaches more than 100. 
+the function calls will terminate if the either value of x goes below 2 or if the value of x reaches more than 100. 
