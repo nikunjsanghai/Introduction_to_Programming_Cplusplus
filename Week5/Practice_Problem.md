@@ -1,4 +1,4 @@
-Question 1: Write a program to write two functions:
+Question 1: Write a program to write two functions:                         
 sqrt_double: should return a double value, which would be square root of the value passed in as argument. The changes should be reflected in the value passed.                 
 pow_double: should return a double value, which would be square of the value passed in as argument. The changes should be reflected in the value passed.
 
