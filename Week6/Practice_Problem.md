@@ -14,3 +14,28 @@ Output:
 0
 0
 ```
+Predict the Output: 
+```
+#include<iostream>
+using namespace std;
+int main()
+{
+for(i=1;i<=5;i++)
+{
+ for(j=1;j<=5;j++)
+ {
+   if(j%2==0)
+  {
+   cout<<"Even"<<'\t';
+  }
+   else if(j==3)
+  {
+   continue;
+  }
+  else
+  {
+   cout<<"Odd"<<endl;
+   }
+ }
+}
+```
