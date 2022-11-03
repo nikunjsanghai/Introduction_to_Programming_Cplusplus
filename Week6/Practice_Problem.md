@@ -14,7 +14,7 @@ Output:
 0
 0
 ```
-Predict the Output: 
+Predict the Output: If there are Syntax errors in the code, correct them and then predict the output.
 ```
 #include<iostream>
 using namespace std;
