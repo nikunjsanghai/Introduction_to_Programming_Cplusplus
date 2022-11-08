@@ -1,4 +1,4 @@
-### Question 
+### Question 1
 Write a Program to print a triangle. The Program takes height and base width as input and prints out a triangle of \"\*\"s.
 Sample Input:
 ```
@@ -14,3 +14,4 @@ Sample output:
 *********
 ```
 
+### Question 2
