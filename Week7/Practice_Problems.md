@@ -19,6 +19,7 @@ Question 1:a) Write a program to ask the user for an array size input (say n). W
 
 b) Take a two dimensional vector vv, take the first set of outputs in one row/column . Iterate through the outputs and check if number is odd/even , add all odd numbers in row/column 2 and all even numbers in row/column 3. 
 ```
+Part a)
 Input: 
 Size:5 
 Please enter array elements: 121
