@@ -34,10 +34,10 @@ Output:
 
 ### Question 3
 Write defitions for the following functions, the goal is to enter elements in a vector till the user enters Q to terminate and then printing the Lowest Common Factor(LCM) of the vector elements.                             
-- void print(const vector<int> & vec); Prints all the elements of the vector                             
-- int LCM(const vector<int> &vec); Finds the Lowest Common Multiple of the array elements of the vector                               
-- int mylargest(const vector<int>& vec); Find the largest number in the vector                                        
-- bool divide(int n,const vector<int>&vec); Prints true if n is devisible by all the elements of the array otherwise prints false                      
+- void print(const vector/<int> & vec); Prints all the elements of the vector                             
+- int LCM(const vector/<int> &vec); Finds the Lowest Common Multiple of the array elements of the vector                               
+- int mylargest(const vector/<int>& vec); Find the largest number in the vector                                        
+- bool divide(int n,const vector/<int>&vec); Prints true if n is devisible by all the elements of the array otherwise prints false                      
 ```
    Input: 3 6 9 12 Q
    Array elements are: 3 6 9 12 
