@@ -15,7 +15,7 @@ Sample output:
 ```
 
 ### Question 2
-Question 1:a) Write a program to ask the user for an vector size input (say n). Write a loop to take n inputs from the user. Check whether the number in the loop is a palindrome number or not. If it is a palindrome number store it in a seperate vector and print the new vector out. 
+a) Write a program to ask the user for an vector size input (say n). Write a loop to take n inputs from the user. Check whether the number in the loop is a palindrome number or not. If it is a palindrome number store it in a seperate vector and print the new vector out. 
 
 ```
 Part a)
@@ -31,3 +31,23 @@ Output:
 232
 555
 ```
+
+### Question 3
+Write defitions for the following functions, the goal is to enter elements in a vector till the user enters Q to terminate and then printing the Lowest Common Factor(LCM) of the vector elements. 
+void print(const vector<int> & vec); Prints all the elements of the vector                             
+void LCM(const vector<int> &vec); Finds the Lowest Common Multiple of the array elements of the vector                               
+int mylargest(const vector<int>& vec); Find the largest number in the vector                                        
+bool divide(int n,const vector<int>&vec); Prints true if n is devisible by all the elements of the array otherwise prints false                      
+```
+   Input: 3 6 9 12 Q
+   Array elements are: 3 6 9 12 
+   LCM:12 
+   
+   Input: 1 7 9 Q
+   Array elements are: 1 7 9
+   LCM:63 
+```
+   
+   
+   
+
