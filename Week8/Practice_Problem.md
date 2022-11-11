@@ -1,13 +1,4 @@
 
-**Question1**: Write a program to take a vector of upto 6 doubles as input and print out the second largest number ans its index in the vector. You are not to use to use .sort function for this question. You are not to alter any index or position of numbers in a vector. 
-
-```
-Input:
-{1,2,3}
-Number:2, Index: 1
-```
-
-
 
 
 **Question2** :Write a class Game for a shuffler game while makes you select random number between 1-3; triples your bet amount if you win. Otherwise deducts the balance from your input.
