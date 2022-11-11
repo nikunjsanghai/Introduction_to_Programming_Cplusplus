@@ -1,7 +1,14 @@
 
+**Question 1**Write a class result for a 4 students , each of the students has 4 results for 4 subjects.The program should enter 16 integers between 0 to 100 to be considered a valid input. 
+
+- Process this information entered in a single dimensional vector into a two dimensional 4\*4 vector 
+- Check if the average for each student is above 70 and also if the average for each subject is above 70 or not. 
 
 
-**Question2** :Write a class Game for a shuffler game while makes you select random number between 1-3; triples your bet amount if you win. Otherwise deducts the balance from your input.
+
+
+
+**Question 2** :Write a class Game for a shuffler game while makes you select random number between 1-3; triples your bet amount if you win. Otherwise deducts the balance from your input.
 The game continues till you either stop playing or exhaust all your money.                           
 Member functions are:                              
 
