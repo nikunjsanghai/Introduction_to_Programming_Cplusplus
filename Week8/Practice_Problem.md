@@ -28,5 +28,107 @@ when the user inputs “Q” or runs out of money.Must generate a random number 
 Void print(): to print the final result when game is over (Please refer sample output for details)
 Also write an int main function that declares an object to perform the tasks as mentioned. 
 
-Sample output:
+Solution 1:
+```
+/*
+Declare your ownership here.
+*/
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+/*
+-----------------------------------------------
+You can define other helper functions here if you want.
+*/
+bool input_valid(const vector<int>& vec) {
+    
+    if (vec.size() == 16)
+    {
+        for (size_t i = 0; i < 16; i++)// run a loop from index 0 to 15 
+        {
+            if (vec[i] >= 0 && vec[i] <= 100) // for each element I will check if it lies within 0-100 or not 
+            {
+                continue;// if it is within the range then we don't want to do anything 
+            }
+            else
+            {
+                return false;// else we need to return false, because we only need one number to lie outside 0-100 
+            }
+        }
+    }
+    else
+    {
+        return false;
+    }
+    return true;
+}
+vector<vector<int>> write_vector_to_square(const vector<int>& vec) 
+{
+    vector<vector<int>> square;
+    for (size_t i = 0; i < 4; i++)
+    {
+        vector<int> temp;
+        for (size_t j = 0; j < 4; j++)
+        {
+            temp.push_back(vec[i * 4 + j]);//0 1 2 3, 4 5 6 7,
+        }
+        square.push_back(temp);/*I pushed 4 {70, 70, 70, 70},
+                                            {70, 80, 90, 90},
+                                            {70, 80, 90, 56},
+                                            {80, 90, 76, 90} 
+                                            1D vectors into this 2D vector*/
+    }
+
+    return square;
+}
+bool is_magic_squares(const vector<vector<int>>& vec) {
+    
+    int sum_sub, sum_stu;
+    for (size_t i = 0; i < 4; i++)
+    {
+        sum_sub = 0; sum_stu = 0;
+        for (size_t j = 0; j < 4; j++)
+        {
+            sum_sub = sum_sub + vec[j][i];
+            sum_stu = sum_stu + vec[i][j];
+        }
+        if (sum_sub >= 280 && sum_stu >= 280)
+        {
+            continue;
+        }
+        else
+            return false;
+    }
+
+    return true;
+}
+// DO NOT MODIFY THE CODE BELOW THIS LINE
+//-----------------------------------------------
+int main() {
+    int input;
+    vector<int> myvector;
+    cout << "Please input a sequence of 16 postive integers, ending with Q:" << endl;
+    while (cin >> input) {
+        myvector.push_back(input);
+    }
+
+    bool flag1 = input_valid(myvector);
+
+    if (flag1 == 0) {
+        cout << "invalid input!" << endl;
+    }
+    else {
+        vector<vector<int>> mag_square;
+        mag_square = write_vector_to_square(myvector);
+        bool flag2 = is_magic_squares(mag_square);
+        if (flag2) {
+            cout << "This is a magic square." << endl;
+        }
+        else {
+            cout << "This is not a magic square." << endl;
+        }
+    }
+    return 0;
+}
 ```
