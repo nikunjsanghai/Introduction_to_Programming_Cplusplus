@@ -2,7 +2,7 @@ Question 1: Write a program to declare the class in .hpp file. Point can only mo
 
 - parameterized constructor(double a,double b): to initialize x and y co-ordinates of the point and set directions to north and west diagonal.  
 - void switch_ew():to switch between east and west 
-- void swtich_ns():to switch between north and south
+- void switch_ns():to switch between north and south
 - void move():to move one unit distance along the desired diagonal.One unit distance is defined as a single unit change in both north/south and east west co-ordinates. 
 - void get_pos const(): print the point to console.                        
 
