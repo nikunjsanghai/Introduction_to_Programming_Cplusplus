@@ -28,7 +28,7 @@ x = 20
 ref = 30
 ```
 ### Pass by Reference 
-f a function receives a reference to a variable, it can modify the value of the variable. For example, the following program variables are swapped using references. 
+If a function receives a reference to a variable, it can modify the value of the variable. For example, the following program variables are swapped using references. 
 ```
 
 #include <iostream>
