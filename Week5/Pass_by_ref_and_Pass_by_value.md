@@ -45,7 +45,8 @@ int&a= b;
 // Let's look at pointers
 int* a= b;
 int* a = &b;// this is allowed and the pointer is pointing towards the memory location of variable b
-	a = &c; // pointer can point towards another memory location here since it is also a variable and is essentially storing the memory location of the object it is pointing to
+	a = &c; /* pointer can point towards another memory location here since it is also a variable and 
+	is essentially storing the memory location of the object it is pointing to */
  ```
 - A reference must be initialized when it is created. Pointers can be initialized at any time.
 ```
