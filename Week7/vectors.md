@@ -1,4 +1,38 @@
 ### Vectors 
+Vectors are the same as dynamic arrays with the ability to resize itself automatically when an element is inserted or deleted, with their storage being handled automatically by the container. Vector elements are placed in contiguous storage so that they can be accessed and traversed using iterators. In vectors, data is inserted at the end. Inserting at the end takes differential time, as sometimes the array may need to be extended. Removing the last element takes only constant time because no resizing happens. Inserting and erasing at the beginning or in the middle is linear in time.
+
+### std::vector in C++
+std::vector in C++ is the class template that contains the vector container and its member functions. It is defined inside the /<vector/> header file. The member functions of std::vector class provide various functionalities to vector containers. Some commonly used member functions are written below:   
+
+### Capacity
+- size() – Returns the number of elements in the vector.
+- max_size() – Returns the maximum number of elements that the vector can hold.
+- capacity() – Returns the size of the storage space currently allocated to the vector expressed as number of elements.
+- resize(n) – Resizes the container so that it contains ‘n’ elements.
+- empty() – Returns whether the container is empty.
+- shrink_to_fit() – Reduces the capacity of the container to fit its size and destroys all elements beyond the capacity.
+- reserve() – Requests that the vector capacity be at least enough to contain n elements.
+
+### Element Access
+- reference operator [g] – Returns a reference to the element at position ‘g’ in the vector
+- at(g) – Returns a reference to the element at position ‘g’ in the vector
+- front() – Returns a reference to the first element in the vector
+- back() – Returns a reference to the last element in the vector
+- data() – Returns a direct pointer to the memory array used internally by the vector to store its owned elements.
+
+### Modifiers
+- assign() – It assigns new value to the vector elements by replacing old ones
+- push_back() – It push the elements into a vector from the back
+- pop_back() – It is used to pop or remove elements from a vector from the back.
+- insert() – It inserts new elements before the element at the specified position
+- erase() – It is used to remove elements from a container from the specified position or range.
+- swap() – It is used to swap the contents of one vector with another vector of same type. Sizes may differ.
+- clear() – It is used to remove all the elements of the vector container
+- emplace() – It extends the container by inserting new element at position
+- emplace_back() – It is used to insert a new element into the vector container, the new element is added to the end of the vector
+
+
+### Vector Thoery
 Vectors are sequence containers representing arrays that can change in size.                                
 
 Just like arrays, vectors use contiguous storage locations for their elements, which means that their elements can also be accessed using offsets on regular pointers
@@ -21,46 +55,5 @@ Compared to the other dynamic sequence containers (deques, lists and forward_lis
 they perform worse than the others, and have less consistent iterators and references than lists and forward_lists.        
 
 
-### Functions in std::vector 
-
-#### Size
-Returns the number of elements in the vector.
-```
-#include <bits/stdc++.h>
-using namespace std;
-
-int main()
-{
-
-	// Initializing a vector of string type
-	vector<string> vec = { "Geeks", "For", "Geeks" };
-
-	for (int i = 0 ; i <= vec.size() - 1 ; i++)
-		cout << vec[i] << ' ';
-	return 0;
-}
-```
-Output:
-```
-Geeks For Geeks 
-```
-#### resize 
-Resizes the container so that it contains ‘n’ elements. Syntax:
-```
-vectorname.resize(int n, int val)
-```
-Output:
-```
-Parameters:
-
-n – it is new container size, expressed in number of elements.
-val – if this parameter is specified then new elements are initialized with this value.
-Return value:
-
-This function do not returns anything.
-Exception:
-
-The only exception if it so happens is Bad_alloc thrown, if reallocation fails.
-```
-
-Reference Link: [geeksforgeeks](https://www.geeksforgeeks.org/vectorempty-vectorsize-c-stl/) [geeksforgeeks](https://www.geeksforgeeks.org/vector-in-cpp-stl/) [geeksforgeeks](https://www.geeksforgeeks.org/vector-resize-c-stl/) [geeksforgeeks](https://www.geeksforgeeks.org/vectorpush_back-vectorpop_back-c-stl/) [cppref](https://en.cppreference.com/w/cpp/container/vector) [cplusplus](https://cplusplus.com/reference/vector/vector/)
+Reference Link: [geeksforgeeks](https://www.geeksforgeeks.org/vectorempty-vectorsize-c-stl/) [geeksforgeeks](https://www.geeksforgeeks.org/vector-in-cpp-stl/) [geeksforgeeks](https://www.geeksforgeeks.org/vector-resize-c-stl/) [geeksforgeeks](https://www.geeksforgeeks.org/vectorpush_back-vectorpop_back-c-stl/) [cppref](https://en.cppreference.com/w/cpp/container/vector) [cplusplus](https://cplusplus.com/reference/vector/vector/) [geeksforgeeks](
+https://www.geeksforgeeks.org/vector-in-cpp-stl/#)
