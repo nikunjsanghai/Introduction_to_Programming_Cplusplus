@@ -1,0 +1,2 @@
+Microsoft Visual Studio is the official IDE(Integrated Development Environment) for the course. Here is the link for the download [link](https://visualstudio.microsoft.com/) Do not download VS Code, only download Xcode for Mac. 
+<img width="846" alt="download_visual_studio" src="https://github.com/nikunjsanghai/Introduction_to_Programming_Cplusplus/assets/103468688/f2069c78-ccd0-4f9a-9f25-a33554706968">
