@@ -1,3 +1,6 @@
+### What is Syntax?
+It is the correct way to write a code. 
+
 ### What is a variable?
 A variable in simple terms is a storage place that has some memory allocated to it. Basically, a variable is used to store some form of data. Different types of variables require different amounts of memory, different type of memory locations, and some specific set of operations that can be applied to them. 
 
