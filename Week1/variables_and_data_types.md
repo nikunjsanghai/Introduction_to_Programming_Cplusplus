@@ -38,6 +38,6 @@ Following are the C++ data type modifiers:
 - unsigned
 - long
 - short
+                                 
+![data_types_in_c++](https://github.com/nikunjsanghai/Introduction_to_Programming_Cplusplus/assets/103468688/17e4247f-7f92-4bef-9b09-b0de1b0a2efa)
 
-                                       
-![data_types_in_c++](https://github.com/nikunjsanghai/Introduction_to_Programming_Cplusplus/assets/103468688/502a93ab-ec3c-4dde-acba-5964a01c041f)
