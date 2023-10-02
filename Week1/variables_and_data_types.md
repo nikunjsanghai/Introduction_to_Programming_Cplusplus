@@ -22,13 +22,13 @@ C++ supports a wide variety of data types and the programmer can select the data
 We will not discuss 2. and 3. in Week 1.         
 **1. Primitive Data Types:** These data types are built-in or predefined data types and can be used directly by the user to declare variables. example: int, char, float, bool, etc. Primitive data types available in C++ are: 
 
-- Integer    
-- Character      
-- Boolean       
-- Floating Point      
-- Double Floating Point       
-- Valueless or Void      
-- Wide Character  
+- Integer : The most natural size of integer for the machine.
+- Character : Typically a single octet (one byte). This is an integer type. 
+- Boolean : Stores either value true or false.    
+- Floating Point : A single-precision floating point value.    
+- Double Floating Point : A double-precision floating point value.      
+- Valueless or Void :Represents the absence of type.    
+- Wide Character  : A wide character type.
 ### Data Type Modifiers in C++
 Modifiers are used in C++ to change or give extra meaning to database types. It’s added to primitive data types as a prefix to change their meaning. A modifier is used to change the meaning of a basic type so that it better matches the requirements of different circumstances.                      
                       
@@ -40,4 +40,6 @@ Following are the C++ data type modifiers:
 - short
                                  
 ![data_types_in_c++](https://github.com/nikunjsanghai/Introduction_to_Programming_Cplusplus/assets/103468688/17e4247f-7f92-4bef-9b09-b0de1b0a2efa)
+
+Reference Link: [GeeksforGeeks](https://www.geeksforgeeks.org/cpp-data-types/)
 
