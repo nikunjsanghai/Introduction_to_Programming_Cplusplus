@@ -5,8 +5,10 @@ Strings are objects that represent sequences of characters.The standard string c
 **String Functions**
 ![string_function](https://user-images.githubusercontent.com/103468688/195030226-b1c59e78-7aca-4abd-8354-f304a5ab7ba3.jpg)
 
+**String Modifiers and Operations**
+![strings_modifiers](https://github.com/nikunjsanghai/Introduction_to_Programming_Cplusplus/assets/103468688/712fa30f-c67d-4428-b7a6-51f0ec3d7802)
 
-
+Reference Link; [cpluscplus.com](https://cplusplus.com/reference/string/string/)
 
 ### Input Buffer 
 
