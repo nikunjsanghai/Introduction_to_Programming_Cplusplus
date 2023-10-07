@@ -8,8 +8,8 @@ Strings are objects that represent sequences of characters.The standard string c
 **String Modifiers and Operations**
 ![strings_modifiers](https://github.com/nikunjsanghai/Introduction_to_Programming_Cplusplus/assets/103468688/712fa30f-c67d-4428-b7a6-51f0ec3d7802)
 
-Reference Link; [cpluscplus.com](https://cplusplus.com/reference/string/string/)
-
+Reference Link: [cpluscplus.com](https://cplusplus.com/reference/string/string/)
+[Difference between strings and character arrays](https://www.geeksforgeeks.org/stdstring-class-in-c/)
 ### Input Buffer 
 
 #### std::ignore                  
