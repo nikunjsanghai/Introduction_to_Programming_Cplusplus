@@ -100,7 +100,7 @@ Output:
 ```
 hello world
 ```
--erase() :Erases part of the string, reducing its length
+- erase() :Erases part of the string, reducing its length
 ```
 // string::erase
 #include <iostream>
