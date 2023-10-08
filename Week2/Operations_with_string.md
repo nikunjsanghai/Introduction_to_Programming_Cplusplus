@@ -82,6 +82,72 @@ There are two prepositions in this haystack with needles.
 ```
 
 ### pop_back(),erase() and push_back()
+- pop_back(): Erases the last character of the string, effectively reducing its length by one.
+```
+// string::pop_back
+#include <iostream>
+#include <string>
+
+int main ()
+{
+  std::string str ("hello world!");
+  str.pop_back();
+  std::cout << str << '\n';
+  return 0;
+}
+```
+Output:
+```
+hello world
+```
+-erase() :Erases part of the string, reducing its length
+```
+// string::erase
+#include <iostream>
+#include <string>
+
+int main ()
+{
+  std::string str ("This is an example sentence.");
+  std::cout << str << '\n';
+                                           // "This is an example sentence."
+  str.erase (10,8);                        //            ^^^^^^^^
+  std::cout << str << '\n';
+                                           // "This is an sentence."
+  str.erase (str.begin()+9);               //           ^
+  std::cout << str << '\n';
+                                           // "This is a sentence."
+  str.erase (str.begin()+5, str.end()-9);  //       ^^^^^
+  std::cout << str << '\n';
+                                           // "This sentence."
+  return 0;
+}
+```
+Output:
+```
+This is an example sentence.
+This is an sentence.
+This is a sentence.
+This sentence.
+```
+- push_back(): Appends character c to the end of the string, increasing its length by one.
+```
+// string::push_back
+#include <iostream>
+#include <fstream>
+#include <string>
+
+int main ()
+{
+  std::string str;
+  std::ifstream file ("test.txt",std::ios::in);
+  if (file) {
+    while (!file.eof()) str.push_back(file.get());
+  }
+  std::cout << str << '\n';
+  return 0;
+}
+```
 
 ### substr() and concatenation
 
