@@ -5,6 +5,5 @@
 - [Practice Problem]()
 ### Dicussion 4
 
--  [Practice Problem]()
-
+-  [Practice Problem](https://github.com/nikunjsanghai/Introduction_to_Programming_Cplusplus/blob/main/Week2/Practice_Problems.md)
   End of Week 2 
