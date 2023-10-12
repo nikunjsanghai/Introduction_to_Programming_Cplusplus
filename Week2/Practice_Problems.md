@@ -48,7 +48,7 @@ Remaining balance: 30
 
 Balance: 60
 Transaction value: 70
-Remaining balance:-40
+Remaining balance:-50
 ```
 
 **Question 4:** Enter a program to take a three character string as an input and move the character positioning by 3 spaces in the alphabet a->d , d->g, etc. Consider the user will always enter a three digit lowercase alphabet character. 
