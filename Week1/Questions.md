@@ -4,7 +4,7 @@ int a=123;
 sum_of_digits=6;
 reverse=321;
 ```
-Question 2: Enter a mutiple of 3 between 3 and 9. Enter an integer which has the number of digits corresponding to the number of digits. Split the number in three equal parts. Do not use if statement. 
+Question 2: Enter a mutiple of 3. Enter an integer which has the number of digits corresponding to the number of digits. Split the number in three equal parts. Do not use if statement. 
 ```
 //valid input: 
 cin>>a;//6 entered
