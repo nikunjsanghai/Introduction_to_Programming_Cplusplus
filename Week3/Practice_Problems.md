@@ -45,3 +45,31 @@ The number of lower_case characters are:6
 The number of upper_case characters are:5
 The number of blank_spaces are:3
 ```
+**Question 5**: Enter a code to check if the string input is 4 in length. If it is 4 in length then replace all the vowels in the word with *, otherwise display an error message. 
+```
+Sample input: AaAa
+Sample output: ****
+Sample input: abcde
+Sample output: ERROR!!
+```
+**Question 5**: Write a program to enter a principal amount, enter the interest rate and if the interest given is more than 600 dollars for one year display the balance along with the message "Interest earned is more than  600 dollars needs to be reported to the IRS" 
+```
+Sample input: Principal: 1000
+Interest: 4.00
+Output: Balance after 1 year= 1040
+
+Sample input: Principal : 100000
+Interest: 4.00
+Output: Balance after 1 year = 104000
+Interest earned is more than  600 dollars needs to be reported to the IRS
+```
+
+** Question 6** Write a program to calculate a grade for a student, take an input "S/US" or "Graded" or otherwise display an error. If is "S/US" then enter a score out of 100 , if it more than 40 , display S otherwise US. If it is graded enter a score out of 100 and calculate the grade based on the following metric 
+| Marks         | Grade         |
+| ------------- | ------------- |
+| 100-90  | A  |
+| 89-80  | B  |
+|79-70| C |
+|69-60| D |
+|59-50| E |
+|49-0 | F |        
