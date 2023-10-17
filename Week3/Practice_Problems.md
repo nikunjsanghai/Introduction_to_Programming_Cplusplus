@@ -64,7 +64,7 @@ Output: Balance after 1 year = 104000
 Interest earned is more than  600 dollars needs to be reported to the IRS
 ```
 
-** Question 6** Write a program to calculate a grade for a student, take an input "S/US" or "Graded" or otherwise display an error. If is "S/US" then enter a score out of 100 , if it more than 40 , display S otherwise US. If it is graded enter a score out of 100 and calculate the grade based on the following metric 
+**Question 6**: Write a program to calculate a grade for a student, take an input "S/US" or "Graded" or otherwise display an error. If is "S/US" then enter a score out of 100 , if it more than 40 , display S otherwise US. If it is graded enter a score out of 100 and calculate the grade based on the following metric 
 | Marks         | Grade         |
 | ------------- | ------------- |
 | 100-90  | A  |
