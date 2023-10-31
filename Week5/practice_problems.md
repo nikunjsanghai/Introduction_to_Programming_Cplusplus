@@ -8,9 +8,9 @@ Question 2: Write function get_marks that prints out the argument str_subject an
 ```
 //if you have written the functions correctly assuming the subjects are equally weighed , averaging the grade in subjects will give you the gpa
 std::cout<<gpa_calculator(get_marks("Maths"),get_marks("Physics"),get_marks("Arts"))
+Enter your garde in Arts: 3.5
 Enter your grade in Maths: 4.00
 Enter your grade in Physics: 3.00
-Enter your garde in Arts: 3.5
 
 Your GPA is: 3.500
 ```
