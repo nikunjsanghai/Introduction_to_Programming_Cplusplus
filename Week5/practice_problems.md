@@ -12,5 +12,5 @@ Enter your garde in Arts: 3.5
 Enter your grade in Maths: 4.00
 Enter your grade in Physics: 3.00
 
-Your GPA is: 3.500
+3.500// output for gpa_calculator function
 ```
