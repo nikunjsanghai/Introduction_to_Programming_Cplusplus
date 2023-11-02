@@ -43,3 +43,51 @@ Do you want to tip? [y/n] y
 Please enter the tip% : 15
 Final balance: -55
 ```
+```
+#include<iostream>
+#include<string>
+using namespace std;
+void assign_value(double& t)
+{
+	double d;
+	std::cout << "Please enter the transfer_amount:";
+	std::cin >> d;
+	t = d;
+
+}
+void tip_value(double& b)
+{
+	char c; double p, tip;
+	std::cout << "Do you want to tip? [y/n]:";
+	std::cin >> c;
+	if (c == 'y')
+	{
+		std::cout << "Enter the tip %:";
+		std::cin >> p;
+		tip =b*p / 100.0;
+		b = b + tip;
+	}
+	else
+	{
+		return;
+	}
+}
+void check(double& b, double& ta)
+{
+	if (b > ta)
+		b = b - ta;
+	else
+		b = b - ta - 40.00;
+}
+int main()
+{
+	double balance, transfer_amount, tip;
+	std::cout << "Please enter the account balance:";
+	std::cin >> balance;//bank account balance 
+	assign_value(transfer_amount);
+	tip_value(transfer_amount);
+	check(balance, transfer_amount);
+	std::cout << "Balance:" << balance;
+	//complete the implementation based on the instructions now
+}
+```
