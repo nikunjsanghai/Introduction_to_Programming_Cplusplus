@@ -14,3 +14,32 @@ Enter your grade in Physics: 3.00
 
 3.500// output for gpa_calculator function
 ```
+Question 3: Write a program to write a function named assign_value to assign a value to the variable transfer_amount. Write a function tip_value to ask the user if they want to tip or not. If yes calculates the tip percentage and adds it to the transfer_amount. Write a function check which calculates if the balance is sufficient to meet the transfer_amount if not then charge a 40 dollars overfraft fees. Don't worry if you are not able to complete the problem as per the output, the goal is to familiarize yourself with functions.
+```
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main()
+{
+int balance,transfer_amount,tip;
+std::cout<<"Please enter the account balance:";
+std::cin>>balance;
+//complete the implementation based on the instructions now
+}
+```
+Sample Output:
+```
+Please enter the account balance: 100
+Please enter the transfer_amount: 50
+Do you want to tip? [y/n] y
+Please enter the tip% : 15
+Final balance: 42.5
+```
+```
+Please enter the account balance: 100
+Please enter the transfer_amount: 100
+Do you want to tip? [y/n] y
+Please enter the tip% : 15
+Final balance: -55
+```
