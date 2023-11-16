@@ -47,7 +47,17 @@ Write defitions for the following functions, the goal is to enter elements in a 
    Array elements are: 1 7 9
    LCM:63 
 ```
-   
+### Question 4
+Write a class Circle which has 3 data members , radius, circumference and area, write a default constructor to set all three data members to zero, write a parameterized constructor Circle(double r) to intialize radius to r and circumference to 0 and area to 0. Write two functions set_circumference() and set_area() to update the circumference and area of the circle class. The return type and parameters(if any) are not mentioned, you are expected to write accurate implementation of the class.
+```
+Class Circle
+{
+// write your functions and constructors here
+private:
+double radius;
+double area;
+double circumference;
+}
    
    
 
