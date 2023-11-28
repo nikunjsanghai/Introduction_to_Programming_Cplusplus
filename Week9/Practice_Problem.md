@@ -63,9 +63,9 @@ int main()
 ```
 **Question 2**:Write a program to construct a class Bank_Account, you must write a class 
 - two constructors Bank_Account() one should be default constructor to have account_balance to 0.0 and vector transactions with no value , the other as  account_balance to parameter value and transaction as the parameter std::vector entered
-- update_balance(): which returns a type Account_Balance, with all transactions processed and the updated balance as account_balance
+- update_balance(): which returns a type Bank_Account, with all transactions processed and the updated balance as account_balance
 - print_statement(): a function that prints all transactions in order
-- update_balance(): a function that updates the account_balance with a single value
+- update_bal(): a function that updates the account_balance with a single value
 - add_transaction(): a function that adds another transaction to the bank account
 - discard_transaction(): a function that disposes the last transaction from the bank account
 - number_of_transactions(): a function that gives the number of account transactions
