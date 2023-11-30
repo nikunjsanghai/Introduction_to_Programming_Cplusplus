@@ -83,13 +83,14 @@ int main()
 ```
 class student
 {
+public:
 std::string name;
 student(std::string n);
 void add_friend(student& s);
 void print_friends();
 private:
 std::unordered_set<const student*> friends;
-}
+};
 int main()
 {
 student A("Tom");
