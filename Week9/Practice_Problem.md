@@ -79,4 +79,28 @@ int main()
 	return 0;
 }
 ```
-
+**Question 3**:Write a program to constuct a class student
+```
+class student
+{
+std::string name;
+student(std::string n);
+void add_friend(student& s);
+void print_friends();
+private:
+std::unordered_set<const student*> friends;
+}
+int main()
+{
+student A("Tom");
+student B("Bill");
+student C("Frank");
+student D("Lilly");
+A.add_friend(B);
+C.add_friend(D);
+A.print_friends();
+B.print_friends();
+C.print_friends();
+D.print_friends();
+return 0;
+}
