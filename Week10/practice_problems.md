@@ -1,4 +1,4 @@
-**Question 1** given a vector<int> in a function, return the function with all the elements in vector<int> in sorted order. 
+**Question 1** given a vector<int> in a function, return the function with all the elements in vector<int> in sorted order. There are no repeated/duplicate elements.
 ```
 int main()
 {
@@ -11,3 +11,14 @@ std::cout<<vec[i]<<" ";
 std::cout<<std::endl;
 return 0;
 }
+```
+**Question 2** given a vec<int> in a function, return true if there are two elements present which add up to a certain number, example if 2+3 add up to 5 return true.
+```
+int main()
+{
+std::vector<int> vec={2,6,8,12,5,3,16};
+bool flag=check(vec,5);
+return 0;
+}
+```
+
