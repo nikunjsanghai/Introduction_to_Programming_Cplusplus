@@ -21,4 +21,12 @@ bool flag=check(vec,5);
 return 0;
 }
 ```
-
+**Question 3** Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once.
+The relative order of the elements should be kept the same. Then return the number of unique elements in nums
+```
+int main()
+{
+std::vector<int> vec{1,1,1,1,4,4,4,6,6};
+std::cout<<remove_dup(vec);//output is 3, vec is 1,4,6
+return 0;
+}
